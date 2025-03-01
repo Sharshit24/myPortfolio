@@ -1,4 +1,4 @@
-# Sumit Verma's Portfolio
+# myPortfolio
 
 Welcome to my portfolio project! This repository contains the source code for my personal website showcasing my skills, projects, and experience.
 
