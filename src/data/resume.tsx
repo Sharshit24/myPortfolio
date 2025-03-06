@@ -64,7 +64,7 @@ export const resumeData: ResumeData = {
       technologies: ["JavaScript", "React"],
       imageUrl: "/trafficLight.png",
       githubUrl: "https://github.com/Sharshit24/Traffic-lights",
-      liveUrl: "https://vercel.com/sumit-vermas-projects-8e264046/traffic-lights",
+      liveUrl: "https://traffic-lights-three.vercel.app/",
     },
     
   ],
