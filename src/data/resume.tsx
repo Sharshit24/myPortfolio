@@ -51,13 +51,22 @@ export const resumeData: ResumeData = {
       liveUrl: "https://code-compiler-black.vercel.app/",
     },
     {
+      title: "myPortfolio",
+      description: "Developed a personal portfolio website to showcase my skills, projects, and experience. The website features a responsive design, interactive UI, project showcase, contact form, and dark mode toggle. Built using React, TypeScript, and Tailwind CSS.",
+      technologies: ["JavaScript", "React", "TypeScript", "Tailwind CSS"],
+      imageUrl: "/portfolio.png",
+      githubUrl: "https://github.com/Sharshit24/myPortfolio",
+      liveUrl: "https://my-portfolio-mauve-three-66.vercel.app/",
+    },
+    {
       title: "trafficLight",
-      description: "Designed intuitive interfaces for an all-in-one coding solution where users could run programs seamlessly in popular languages such as C++ and Python. Established an enhanced task queue with BullMQ for real-time job management.",
-      technologies: ["JavaScript", "React",],
-      imageUrl: "/compiler.png",
+      description: "Developed a traffic light simulation application to demonstrate the use of state management in React. The application visually represents the traffic light system with red, yellow, and green lights, and transitions between these states based on a timer. This project showcases my ability to create interactive and dynamic user interfaces using React.",
+      technologies: ["JavaScript", "React"],
+      imageUrl: "/trafficLight.png",
       githubUrl: "https://github.com/Sharshit24/Traffic-lights",
       liveUrl: "https://vercel.com/sumit-vermas-projects-8e264046/traffic-lights",
-    }
+    },
+    
   ],
 
     
