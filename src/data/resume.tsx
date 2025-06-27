@@ -37,7 +37,8 @@ export const resumeData: ResumeData = {
         "Git",
         "GitHub",
         "Python",
-        "C++"
+        "C++",
+        "GOLANG"
       ]
     }
   ],
