@@ -61,7 +61,7 @@ export const resumeData: ResumeData = {
     {
       title: "trafficLight",
       description: "Developed a traffic light simulation application to demonstrate the use of state management in React. The application visually represents the traffic light system with red, yellow, and green lights, and transitions between these states based on a timer. This project showcases my ability to create interactive and dynamic user interfaces using React.",
-      technologies: ["JavaScript", "React"],
+      technologies: ["JavaScript", "React", "HTML", "ReactRouterDom"],
       imageUrl: "/trafficLight.png",
       githubUrl: "https://github.com/Sharshit24/Traffic-lights",
       liveUrl: "https://traffic-lights-three.vercel.app/",
