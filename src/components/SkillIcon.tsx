@@ -2,7 +2,7 @@ import React from 'react';
 import { 
   SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNextdotjs,
   SiNodedotjs, SiExpress, SiMysql, SiMongodb,
-  SiDocker, SiGit, SiGithub, SiPython, SiCplusplus
+  SiDocker, SiGit, SiGithub, SiPython, SiCplusplus,SiGOLANG
 } from 'react-icons/si';
 import { BiMessageSquareDetail } from 'react-icons/bi';
 
