@@ -28,6 +28,7 @@ export const SkillIcon: React.FC<SkillIconProps> = ({ name, className = '' }) =>
     'GitHub': SiGithub,
     'Python': SiPython,
     'C++': SiCplusplus,
+    'Golang': SiGOLANG
   };
 
   const Icon = iconMap[name];
