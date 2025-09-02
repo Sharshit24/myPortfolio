@@ -8,7 +8,7 @@ export const resumeData: ResumeData = {
   email: "sumitworks.in@gmail.com",
   socialLinks: {
     github: "https://github.com/Sharshit24",
-    linkedin: "www.linkedin.com/in/sumit-verma-431981284",
+    linkedin: "https://tinyurl.com/289bube7",
     twitter: "https://x.com/codec_sumit24",
   },
   interests: [
