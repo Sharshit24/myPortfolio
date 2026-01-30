@@ -1,70 +1,50 @@
-# myPortfolio
+# [utkarsh-singhal.is-a.dev](https://utkarsh-singhal.is-a.dev) &middot; ![GitHub Repo Views](https://gitviews.com/repo/Utkarsh-Singhal-26/portfolio.svg?style=flat&label-color=%23555&color=%23f59e0b)
 
-Welcome to my portfolio project! This repository contains the source code for my personal website showcasing my skills, projects, and experience.
+A modern, responsive portfolio showcasing my work, skills, and projects as a developer.
 
-## Table of Contents
+→ Check out the live site: [utkarsh-singhal.is-a.dev](https://utkarsh-singhal.is-a.dev)
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+<img width="1279" height="1133" alt="image" src="https://github.com/user-attachments/assets/db5ab79b-6850-4cb9-b73e-81b73d48d318" />
 
-## Introduction
+## Overview
 
-This is the source code for my personal portfolio website. It includes information about my professional background, skills, and projects I have worked on.
+### Stack
 
-## Features
+- Next.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion & GSAP
 
+### Featured
+
+- Clean & modern design
+- Light/Dark themes
 - Responsive design
-- Interactive UI
-- Project showcase
-- Contact form
+- SEO optimized
+- Fast performance
+- Smooth animations
+- Dynamic routing
+- Deployed on Vercel
 
-## Technologies Used
+### Projects
 
-- HTML
-- CSS
-- JavaScript
-- React
-- Node.js
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/sumitver.portfolio.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd sumitver.portfolio
-    ```
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
-
-## Usage
-
-To start the development server, run:
-```bash
-npm start
-```
-Open your browser and go to `http://localhost:3000` to view the website.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+- Dynamic project pages with Next.js routing
+- Interactive UI components
+- Smooth transitions with Framer Motion & GSP
+- Responsive layouts for all screen sizes
+- Modular component architecture
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Licensed under the [MIT license](./LICENSE).
 
-## Contact
+You're free to use my code! Just make sure to <ins>remove all my personal information</ins> before publishing your website. It's awesome to see my code being useful to someone!
 
-You can reach me at [sumitworks.in@gmail.com](mailto:sumitworks.in@gmail.com) for any questions or feedback.
+## Sponsors
+
+> Found this project useful? [Sponsor me](https://github.com/sponsors/Utkarsh-Singhal-26) to help with support and maintenance.
+
+## Star History
+
+[![Stargazers over time](https://starchart.cc/Utkarsh-Singhal-26/portfolio.svg?background=%23000000&axis=%23ffffff&line=%232f81f7)](https://starchart.cc/Utkarsh-Singhal-26/portfolio)
