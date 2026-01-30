@@ -1,5 +1,5 @@
 {
-    "name": "portfolio",
+    "name": "myPortfolio",
     "version": "2.0.0",
     "description": "A modern, responsive personal portfolio built with Next.js, Tailwind CSS, and TypeScript to showcase projects, skills, and experience.",
     "homepage": "https://utkarsh-singhal.is-a.dev/",
@@ -14,16 +14,15 @@
     "author": "Utkarsh Singhal <singhalutkarsh26@gmail.com> (https://utkarsh-singhal.is-a.dev/)",
     "contributors": [
         {
-            "name": "Utkarsh Singhal",
-            "email": "singhalutkarsh26@gmail.com",
-            "url": "https://utkarsh-singhal.is-a.dev/"
+            "name": "Sumit Verma",
+            "email": "sumitworks.in@gmail.com",
+            "url": "https://sumitverma.dev/"
         }
     ],
     "type": "commonjs",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
-        "build": "next build",
         "start": "next start",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
