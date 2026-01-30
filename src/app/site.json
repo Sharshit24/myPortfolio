@@ -5,13 +5,14 @@
     "theme": "dark",
     "accentColor": "#6366F1",
     "font": "Inter",
-    "ogImage": "/og-image.png"
+    "url": "https://my-portfolio-mauve-three-66.vercel.app",
+    "ogImage": "/opengraph-image.png"
   },
 
   "profile": {
     "name": "Sumit Verma",
     "bio": "Frontend Developer and 3rd-year Engineering student specializing in building responsive, performant, and user-focused web applications using React, JavaScript, and modern UI frameworks.",
-    "avatar": "/public/avatar.jpg",
+    "avatar": "/avatar.svg",
     "resume": "/resume.pdf"
   },
 

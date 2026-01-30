@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: site.site.title || "",
         description: site.site.description || "",
+        url: site.site.url || undefined,
         type: "website",
         images: [
             {
@@ -29,6 +30,7 @@ export const metadata: Metadata = {
             },
         ],
     },
+    metadataBase: site.site.url ? new URL(site.site.url) : undefined,
     twitter: {
         card: "summary_large_image",
         creator: site.socials?.twitter || "",
