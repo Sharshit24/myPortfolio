@@ -1,4 +1,3 @@
-export * from "./blogs";
 export * from "./contact";
 export * from "./experience";
 export * from "./footer";

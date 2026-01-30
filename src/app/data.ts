@@ -1,11 +1,6 @@
 import type { StaticImageData } from "next/image";
 
-import {
-    OrmsOdmsImage,
-    TsGenericsImage,
-    TsReactImage,
-    UtilityTypesImage,
-} from "@/assets/blogs";
+
 import {
     AirwatchImage,
     LibraryImage,
@@ -24,13 +19,7 @@ export interface IProjectData {
     IMAGE: StaticImageData;
 }
 
-export interface IBlogData {
-    DATE: string;
-    TIME: string;
-    LINK: string;
-    DESCRIPTION: string;
-    IMAGE?: StaticImageData;
-}
+
 
 import site from "./site.json";
 
@@ -169,41 +158,7 @@ export const DATA = {
         return mapped;
     })(),
 
-    BLOGS: {
-        "ORMs & ODMs: Choosing the Right Tool for Your Database Needs": {
-            DATE: "March 24, 2025",
-            TIME: "4",
-            LINK: "https://www.linkedin.com/pulse/orms-odms-choosing-right-tool-your-database-needs-sumit-singhal-dnshc/",
-            DESCRIPTION:
-                "Object-Relational Mappers (ORMs) and Object-Document Mappers (ODMs) play a crucial role in modern application development by abstracting database interactions and simplifying data management. Whether you're working with relational databases like PostgreSQL and MySQL or NoSQL databases like MongoDB, selecting the right ORM or ODM can significantly impact performance, scalability, and maintainability.",
-            IMAGE: OrmsOdmsImage,
-        },
-        "Mastering TypeScript Generics: Building Flexible and Scalable Code": {
-            DATE: "March 8, 2025",
-            TIME: "7",
-            LINK: "https://www.linkedin.com/pulse/mastering-typescript-generics-building-flexible-scalable-singhal-f77bc/",
-            DESCRIPTION:
-                "When building robust and scalable applications in TypeScript, flexibility and reusability are key. One of the most powerful features that helps achieve this is Generics. Generics allow developers to create functions, classes, and interfaces that can work with any data type, ensuring that the code is more flexible, reusable, and easier to maintain.",
-            IMAGE: TsGenericsImage,
-        },
-        "TypeScript and React: Harnessing the Full Power of Types": {
-            DATE: "March 11, 2025",
-            TIME: "6",
-            LINK: "https://www.linkedin.com/pulse/typescript-react-harnessing-full-power-types-sumit-singhal-6bxuc/",
-            DESCRIPTION:
-                "React has become the go-to library for building dynamic user interfaces, and TypeScript has emerged as a powerful tool for adding static types to JavaScript applications. While many developers use TypeScript with React, they often only scratch the surface of its capabilities.",
-            IMAGE: TsReactImage,
-        },
-        "Understanding Utility Types in TypeScript: Supercharging Your Codebase":
-            {
-                DATE: "March 10, 2025",
-                TIME: "7",
-                LINK: "https://www.linkedin.com/pulse/understanding-utility-types-typescript-supercharging-your-singhal-zdxwc/",
-                DESCRIPTION:
-                    "TypeScript is renowned for its ability to enhance JavaScript applications by adding static typing. However, when working with complex types, developers often find themselves repeating type definitions or restructuring types to fit different contexts. This is where Utility Types in TypeScript come to the rescue.",
-                IMAGE: UtilityTypesImage,
-            },
-    },
+    BLOGS: {},
 
     SKILLS: {
         Languages: [

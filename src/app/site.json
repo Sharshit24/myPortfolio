@@ -54,18 +54,12 @@
     }
   ],
 
-  "blog": {
-    "enabled": true,
-    "tagline": "Writing about frontend development, React, UI design, and lessons learned while building real-world projects."
-  },
-
   "sections": [
     "hero",
     "about",
     "skills",
     "projects",
     "experience",
-    "blog",
     "certifications",
     "contact",
     "testimonials"
