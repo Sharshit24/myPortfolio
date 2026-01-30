@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowUp } from "lucide-react";
+import { DATA } from "@/app/data";
 
 export function Footer() {
     function scrollToTop() {
@@ -13,7 +14,7 @@ export function Footer() {
     return (
         <div className="flex max-md:flex-col justify-between items-center max-md:gap-2 pt-4 border-gray-800 border-t w-full">
             <p className="text-muted-foreground text-base text-center">
-                &copy; {new Date().getFullYear()} Utkarsh Singhal. All rights
+                &copy; {new Date().getFullYear()} {DATA.HEADER.NAME}. All rights
                 reserved.
             </p>
             <button

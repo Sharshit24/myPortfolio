@@ -1,0 +1,73 @@
+{
+  "site": {
+    "title": "Sumit Verma — Frontend Developer & React Engineer",
+    "description": "Frontend Developer specializing in React and modern web technologies. Building fast, responsive, and user-friendly web applications.",
+    "theme": "dark",
+    "accentColor": "#6366F1",
+    "font": "Inter",
+    "ogImage": "/og-image.png"
+  },
+
+  "profile": {
+    "name": "Sumit Verma",
+    "bio": "Frontend Developer and 3rd-year Engineering student specializing in building responsive, performant, and user-focused web applications using React, JavaScript, and modern UI frameworks.",
+    "avatar": "/public/avatar.jpg",
+    "resume": "/resume.pdf"
+  },
+
+  "socials": {
+    "github": "https://github.com/Sharshit24",
+    "linkedin": "https://www.linkedin.com/in/sumit-verma-431981284/?originalSubdomain=in",
+    "twitter": "https://x.com/codec_sumit24",
+    "email": "mailto:sumitworks.in@gmail.com",
+    "portfolio": "https://my-portfolio-mauve-three-66.vercel.app/"
+  },
+
+  "projects": [
+    {
+      "name": "Real-Time Mental Health Monitoring System",
+      "description": "Web platform for collecting and monitoring mental health data with authentication and real-time storage.",
+      "tech": ["React", "Firebase", "JavaScript", "HTML", "CSS"],
+      "repo": "",
+      "live": ""
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "Personal developer portfolio showcasing projects, skills, and contact information.",
+      "tech": ["React", "Tailwind CSS", "JavaScript"],
+      "repo": "",
+      "live": "https://my-portfolio-mauve-three-66.vercel.app/"
+    },
+    {
+      "name": "E-Commerce Website (Frontend)",
+      "description": "Responsive e-commerce UI with product listing, animations, and cart functionality.",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "repo": "",
+      "live": ""
+    },
+    {
+      "name": "Hitech Billsoft Landing Pages",
+      "description": "SEO-optimized landing pages for multiple business software solutions.",
+      "tech": ["HTML", "Tailwind CSS", "JavaScript"],
+      "repo": "",
+      "live": ""
+    }
+  ],
+
+  "blog": {
+    "enabled": true,
+    "tagline": "Writing about frontend development, React, UI design, and lessons learned while building real-world projects."
+  },
+
+  "sections": [
+    "hero",
+    "about",
+    "skills",
+    "projects",
+    "experience",
+    "blog",
+    "certifications",
+    "contact",
+    "testimonials"
+  ]
+}

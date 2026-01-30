@@ -11,49 +11,32 @@ const outfit = Outfit({
     variable: "--font-outfit",
 });
 
+import site from "./site.json";
+
 export const metadata: Metadata = {
-    title: "Utkarsh Singhal | Software Developer",
-    description:
-        "Software developer specializing in Next.js, TypeScript and Node.js.",
+    title: site.site.title || "Portfolio",
+    description: site.site.description || "",
     openGraph: {
-        title: "Utkarsh Singhal | Software Developer",
-        description:
-            "Software developer specializing in Next.js, TypeScript, and Node.js. Experienced in building scalable, high-performance applications.",
-        url: "https://utkarsh-singhal.is-a.dev/",
+        title: site.site.title || "",
+        description: site.site.description || "",
         type: "website",
         images: [
             {
-                url: "https://utkarsh-singhal.is-a.dev/opengraph-image.png",
+                url: site.site.ogImage || "/opengraph-image.png",
                 width: 1200,
                 height: 630,
-                alt: "Utkarsh Singhal | Software Developer",
+                alt: site.site.title || "Portfolio",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        creator: "@Utkarsh_2604",
+        creator: site.socials?.twitter || "",
     },
-    authors: [
-        { name: "Utkarsh Singhal", url: "https://utkarsh-singhal.is-a.dev/" },
-    ],
-    keywords: [
-        "Utkarsh Singhal",
-        "Software Developer",
-        "Full-Stack Developer",
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Node.js",
-        "AWS",
-        "GCP",
-        "MongoDB",
-        "Firebase",
-        "Tailwind CSS",
-        "Web Development",
-    ],
-    creator: "Utkarsh Singhal",
-    publisher: "Utkarsh Singhal",
+    authors: [{ name: site.profile?.name || "" }],
+    keywords: [site.profile?.name || "", "Frontend Developer", "React", "Next.js"].filter(Boolean) as string[],
+    creator: site.profile?.name || "",
+    publisher: site.profile?.name || "",
 };
 
 export default function RootLayout({
@@ -72,11 +55,11 @@ export default function RootLayout({
             >
                 <ThemeProvider
                     attribute="class"
-                    defaultTheme="system"
-                    enableSystem
+                    defaultTheme={site.site.theme === "dark" ? "dark" : site.site.theme === "light" ? "light" : "system"}
+                    enableSystem={site.site.theme === "system"}
                     disableTransitionOnChange
                 >
-                    <div className="bg-white dark:bg-black mx-auto pt-6 sm:pt-12 w-full md:w-3/4 lg:w-3/5 text-foreground">
+                    <div style={{ ["--accent-color" as any]: site.site.accentColor }} className="bg-white dark:bg-black mx-auto pt-6 sm:pt-12 w-full md:w-3/4 lg:w-3/5 text-foreground">
                         {children}
                     </div>
                 </ThemeProvider>

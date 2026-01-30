@@ -15,13 +15,13 @@ export function Navbar() {
                 ariaLabel="Navigate to home"
             >
                 <Link href={"/"} className="font-bold text-xl tracking-tighter">
-                    utkarsh.
+                    sumit.
                 </Link>
             </MovingElement>
 
             <nav className="flex items-center gap-2">
                 <ul className="flex items-center gap-2 sm:gap-0">
-                    {["#experience", "projects", "blogs"].map((link, index) => (
+                    {["#experience", "projects"].map((link, index) => (
                         <li key={index}>
                             <AnimatedText href={`/${link}`}>
                                 {link.split("#")[1] || link}

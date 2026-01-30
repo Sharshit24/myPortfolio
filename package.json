@@ -2,16 +2,16 @@
     "name": "myPortfolio",
     "version": "2.0.0",
     "description": "A modern, responsive personal portfolio built with Next.js, Tailwind CSS, and TypeScript to showcase projects, skills, and experience.",
-    "homepage": "https://utkarsh-singhal.is-a.dev/",
+    "homepage": "https://sumit-singhal.is-a.dev/",
     "bugs": {
-        "url": "https://github.com/Utkarsh-Singhal-26/portfolio/issues"
+        "url": "https://github.com/sumit-Singhal-26/portfolio/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Utkarsh-Singhal-26/portfolio.git"
+        "url": "git+https://github.com/sumit-Singhal-26/portfolio.git"
     },
     "license": "ISC",
-    "author": "Utkarsh Singhal <singhalutkarsh26@gmail.com> (https://utkarsh-singhal.is-a.dev/)",
+    "author": "sumit Singhal <singhalsumit26@gmail.com> (https://sumit-singhal.is-a.dev/)",
     "contributors": [
         {
             "name": "Sumit Verma",
@@ -19,7 +19,7 @@
             "url": "https://sumitverma.dev/"
         }
     ],
-    "type": "commonjs",
+    "type": "module",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
@@ -48,7 +48,8 @@
         "react": "^19.2.3",
         "react-dom": "^19.2.3",
         "tailwind-merge": "^3.4.0",
-        "tailwindcss-animate": "^1.0.7"
+        "tailwindcss-animate": "^1.0.7",
+        "vercel": "^50.9.5"
     },
     "devDependencies": {
         "@tailwindcss/postcss": "^4.1.18",
